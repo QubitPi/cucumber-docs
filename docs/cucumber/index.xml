@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Cucumber on Cucumber Documentation</title>
+    <link>https://cucumber.io/docs/cucumber/</link>
+    <description>Recent content in Cucumber on Cucumber Documentation</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    
+	<atom:link href="https://cucumber.io/docs/cucumber/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Step Definitions</title>
+      <link>https://cucumber.io/docs/cucumber/step-definitions/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://cucumber.io/docs/cucumber/step-definitions/</guid>
+      <description>A Step Definition is a methodfunctionblockfunctionfunction with an expression that links it to one or more Gherkin steps. When Cucumber executes a Gherkin step in a scenario, it will look for a matching step definition to execute.
+To illustrate how this works, look at the following Gherkin Scenario:
+Scenario: Some cukes Given I have 48 cukes in my belly  The I have 48 cukes in my belly part of the step (the text following the Given keyword) will match the following step definition:</description>
+    </item>
+    
+    <item>
+      <title>Cucumber Reference</title>
+      <link>https://cucumber.io/docs/cucumber/api/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://cucumber.io/docs/cucumber/api/</guid>
+      <description>Cucumber can be used to implement automated tests based on scenarios described in your Gherkin feature files.
+Step Arguments In the example given in step definitions, Cucumber extracts the text 48 from the step, converts it to an int and passes it as an argument to the methodfunctionblockfunctionfunction.
+The number of parameters in the methodfunctionblockfunctionfunction has to match the number of capture group capture group capture group output parameter output parameter s in the expression.</description>
+    </item>
+    
+    <item>
+      <title>Checking Assertions</title>
+      <link>https://cucumber.io/docs/cucumber/checking-assertions/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://cucumber.io/docs/cucumber/checking-assertions/</guid>
+      <description>Your Then steps should make assertions comparing expected results to actual results from your application.
+Cucumber does not come with an assertion library. Instead, use the assertion methods from a unit testing tool.
+Java JUnit 5 When using the cucumber-junit-platform-engine you are free to use any assertion library of your choice. For example:
+ AssertJ Hamcrest JUnit Jupiter  JUnit 4 When using JUnit 4 to run Cucumber we recommend using JUnit 4&amp;rsquo;s assert* methods.</description>
+    </item>
+    
+    <item>
+      <title>Cucumber Configuration</title>
+      <link>https://cucumber.io/docs/cucumber/configuration/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://cucumber.io/docs/cucumber/configuration/</guid>
+      <description>Type Registry Parameter types let you convert parameters from cucumber-expressions to objects. Data table and doc string types let you convert data tables and doc strings to objects. Like step definitions, type definitions are part of the glue. When placed on the glue path Cucumber will detect them automatically.
+ Parameter types let you convert parameters from cucumber-expressions to objects. Data table and doc string types let you convert data tables and doc strings to objects.</description>
+    </item>
+    
+    <item>
+      <title>Cucumber Expressions</title>
+      <link>https://cucumber.io/docs/cucumber/cucumber-expressions/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://cucumber.io/docs/cucumber/cucumber-expressions/</guid>
+      <description>The Cucumber Expressions Docs have been moved to GitHub.</description>
+    </item>
+    
+    <item>
+      <title>Debugging</title>
+      <link>https://cucumber.io/docs/cucumber/debugging/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://cucumber.io/docs/cucumber/debugging/</guid>
+      <description>(The code given below calls on the logging facilities of Ruby on Rails. If you&amp;rsquo;re not using Rails, replace those calls with puts or warn.)
+Adding the following as the contents of features/support/debugging.rb can be helpful in debugging failing steps:
+# rubocop:disable Lint/Debugger class CucumberCounters @error_counter = 0 @step_counter = 0 @screenshot_counter = 0 class &amp;lt;&amp;lt; self attr_accessor :error_counter, :step_counter, :screenshot_counter end end # `LAUNCHY=1 cucumber` to open save screenshot after every step After do |scenario| next unless (ENV[&#39;LAUNCHY&#39;] || ENV[&#39;CI&#39;]) &amp;amp;&amp;amp; scenario.</description>
+    </item>
+    
+    <item>
+      <title>Environment Variables</title>
+      <link>https://cucumber.io/docs/cucumber/environment-variables/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://cucumber.io/docs/cucumber/environment-variables/</guid>
+      <description>Cucumber uses environment variables to enable certain features, such as publishing Cucumber Reports.
+There are many different ways to define environment variables, depending on your environment. This guide describes how to define the CUCUMBER_PUBLISH_TOKEN environment variable with value some-secret-token.
+For security reasons you should not define environment variables containing secrets globally.
+For MacOS and Linux users this means you should not define them in ~/.bashrc, ~/.bash_profile, ~/.zshrc, /etc.profile or similar.</description>
+    </item>
+    
+    <item>
+      <title>Mocking and Stubbing with Cucumber</title>
+      <link>https://cucumber.io/docs/cucumber/mocking-and-stubbing-with-cucumber/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://cucumber.io/docs/cucumber/mocking-and-stubbing-with-cucumber/</guid>
+      <description>Mocking is usually discouraged when using Cucumber; ideally you would exercise as much of your stack as possible. There are cases when using mocking can come in handy. For example, if your system depends on a third party. If you have a dependency on an external system, we recommend using stubs instead of mocks. You can set up mocks with expectations in your step definitions.
+Ruby RSpec 2.x Starting with Cucumber 0.</description>
+    </item>
+    
+    <item>
+      <title>Reporting</title>
+      <link>https://cucumber.io/docs/cucumber/reporting/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://cucumber.io/docs/cucumber/reporting/</guid>
+      <description>Cucumber uses reporter plugins to produce reports that contain information about what scenarios have passed or failed.
+Some plugins are built-in, others have to be installed separately. You can also build your own.
+This page documents built-in formatter plugins, custom formatters and some common third-party plugins. Available plugins may vary per programming language.
+Cucumber Reports Service The easiest way to get started with reporting is to use the Cucumber Reports service.</description>
+    </item>
+    
+    <item>
+      <title>State</title>
+      <link>https://cucumber.io/docs/cucumber/state/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://cucumber.io/docs/cucumber/state/</guid>
+      <description>Sharing state between scenarios Don&amp;rsquo;t do it.
+Scenarios must be independent from each other so it is important that state is not shared between scenarios. Accidentally leaking state from one scenario into others makes your scenarios brittle and also difficult to run in isolation.
+To prevent accidentally leaking state between scenarios:
+ Avoid using global or static variables. Make sure you clean your database in a Before hook. If you share a browser between scenarios, delete cookies in a Before hook.</description>
+    </item>
+    
+  </channel>
+</rss>

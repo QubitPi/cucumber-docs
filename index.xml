@@ -1,0 +1,831 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Cucumber Documentation</title>
+    <link>https://cucumber.io/</link>
+    <description>Recent content on Cucumber Documentation</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    
+	<atom:link href="https://cucumber.io/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Step Definitions</title>
+      <link>https://cucumber.io/docs/cucumber/step-definitions/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://cucumber.io/docs/cucumber/step-definitions/</guid>
+      <description>A Step Definition is a methodfunctionblockfunctionfunction with an expression that links it to one or more Gherkin steps. When Cucumber executes a Gherkin step in a scenario, it will look for a matching step definition to execute.
+To illustrate how this works, look at the following Gherkin Scenario:
+Scenario: Some cukes Given I have 48 cukes in my belly  The I have 48 cukes in my belly part of the step (the text following the Given keyword) will match the following step definition:</description>
+    </item>
+    
+    <item>
+      <title>Cucumber Reference</title>
+      <link>https://cucumber.io/docs/cucumber/api/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://cucumber.io/docs/cucumber/api/</guid>
+      <description>Cucumber can be used to implement automated tests based on scenarios described in your Gherkin feature files.
+Step Arguments In the example given in step definitions, Cucumber extracts the text 48 from the step, converts it to an int and passes it as an argument to the methodfunctionblockfunctionfunction.
+The number of parameters in the methodfunctionblockfunctionfunction has to match the number of capture group capture group capture group output parameter output parameter s in the expression.</description>
+    </item>
+    
+    <item>
+      <title>Classroom training</title>
+      <link>https://cucumber.io/docs/professional/training/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://cucumber.io/docs/professional/training/</guid>
+      <description>Cucumber Ltd run private and public Behaviour-Driven Development training and coaching services around the world. To make an on-site enquiry or to see a list of upcoming public course dates, head to our training page.</description>
+    </item>
+    
+    <item>
+      <title>Online training</title>
+      <link>https://cucumber.io/docs/professional/school/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://cucumber.io/docs/professional/school/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Books</title>
+      <link>https://cucumber.io/docs/professional/books/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://cucumber.io/docs/professional/books/</guid>
+      <description>We like these Books
+Discovery
+  This practical guide by Gáspár Nagy and Seb Rose explains good collaboration techniques, illustrated by concrete examples.
+       The Cucumber Book
+  Matt Wynne and Aslak Hellesøy show you how to express your customers’ wild ideas as a set of clear, executable specifications that everyone on the team can read.
+       BDD in Action</description>
+    </item>
+    
+    <item>
+      <title>Cucumber Blog / Podcast</title>
+      <link>https://cucumber.io/docs/community/blog/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://cucumber.io/docs/community/blog/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>New Contributors</title>
+      <link>https://cucumber.io/docs/community/new-contributors/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://cucumber.io/docs/community/new-contributors/</guid>
+      <description>Every Wednesday at 10:45 PST we host the new contributors ensemble. This is a space for people who are keen to contribute to open source to get together and support each other in making their first contributions. 🦄
+The Cucumber team is committed to tackling the structural sexism and racism in open source, and we host these sessions to provide a welcoming environment for people who have historically been under-represented in open source.</description>
+    </item>
+    
+    <item>
+      <title>Community blog posts</title>
+      <link>https://cucumber.io/docs/community/blog-posts/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://cucumber.io/docs/community/blog-posts/</guid>
+      <description>Here is a list of Cucumber-related blog posts and tutorials.
+Do keep in mind that blogs can become dated quickly with a fast-moving project like Cucumber. Cucumber&amp;rsquo;s documentation should be considered the canonical documentation source with the, hopefully, most up-to-date information. Some very old blog posts may refer to the &amp;ldquo;RSpec Story Runner&amp;rdquo;, since Cucumber started out as a rewrite of that project.
+See also Related Tools.
+          Post Description Posting Date   What is BDD?</description>
+    </item>
+    
+    <item>
+      <title>Contributing</title>
+      <link>https://cucumber.io/docs/community/contributing/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://cucumber.io/docs/community/contributing/</guid>
+      <description>You want to contribute to Cucumber, great!
+You have a question You can get in touch or have a look on StackOverflow. Similar questions come up now and again. You might be able to find the answer yourself.
+You have found a bug There are several different flavours of Cucumber for different programming languages. Try to file your issue in the repo for the Cucumber flavour you&amp;rsquo;re using:
+ Cucumber JVM Cucumber JS Cucumber Ruby Godog  If you&amp;rsquo;re not sure, open an issue in the common repo, and we&amp;rsquo;ll take it from there.</description>
+    </item>
+    
+    <item>
+      <title>Contributing to Documentation</title>
+      <link>https://cucumber.io/docs/community/contributing-to-documentation/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://cucumber.io/docs/community/contributing-to-documentation/</guid>
+      <description>The Cucumber documentation is open source and anyone is welcome to contribute. In fact, we&amp;rsquo;d really appreciate your help!
+Each page provides a link to edit the content of that page. You can also make your changes to the docs.cucumber.io project on Github.
+Process First-time contributors will have to send a pull request.
+Once your first pull request has been accepted, you will be promoted to a committer and gain write access to the GitHub repository.</description>
+    </item>
+    
+    <item>
+      <title>FAQ</title>
+      <link>https://cucumber.io/docs/community/faq/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://cucumber.io/docs/community/faq/</guid>
+      <description>Getting started and help How do I get started with Cucumber? To get started from scratch, try the 10-minute tutorial. If you&amp;rsquo;d prefer to get started with a working project (or if you are having trouble getting the tutorial to work), you can get started with the cucumber-java-skeleton. This project is designed to work &amp;ldquo;out of the box&amp;rdquo;.
+ You can read these docs to learn more about Gherkin, Cucumber and BDD.</description>
+    </item>
+    
+    <item>
+      <title>FAQ about related tools</title>
+      <link>https://cucumber.io/docs/community/not-cucumber/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://cucumber.io/docs/community/not-cucumber/</guid>
+      <description>Cucumber is frequently used alongside other tools. As much as we would like to help you, if you are having trouble with any of these tools it&amp;rsquo;s better to contact those communities directly. This page lists some of the tools often used with Cucumber and where to find help for those tools. If you cannot find the tool you are looking for, try the related tools page.
+IDE Plugins Note that if you are using a newer version of Cucumber, the plugin you are using might not have been updated yet.</description>
+    </item>
+    
+    <item>
+      <title>Get in touch</title>
+      <link>https://cucumber.io/docs/community/get-in-touch/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://cucumber.io/docs/community/get-in-touch/</guid>
+      <description>Wherever you interact with the Cucumber Open community, always remember to respect and uphold our code of conduct.
+Github Discussions If you have questions about using Cucumber, or ideas for how we could improve it, head over to our GitHub Discussions forum.
+Slack If you&amp;rsquo;re interested in becoming an open-source contributor, come and hang out in our Slack community. To join the Slack you&amp;rsquo;ll need to create an account.</description>
+    </item>
+    
+    <item>
+      <title>Projects using Cucumber</title>
+      <link>https://cucumber.io/docs/community/projects-using-cucumber/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://cucumber.io/docs/community/projects-using-cucumber/</guid>
+      <description>Here is a list of projects using Cucumber:
+ BehatMage Broth bsmi CarrierWave Chef Chits Courgette CF FCQ Diaspora drush-make-ci Folioapp Jekyll Jeweler OERPScenario (linked to OpenERP) One Click Orgs PHP Sasl RadiantCMS Rails directory Redcar (see /plugins/*/features) rigse rps-challenge TimeFliesBy Vdebug WebJam WontoMedia  </description>
+    </item>
+    
+    <item>
+      <title>Introduction</title>
+      <link>https://cucumber.io/docs/guides/overview/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://cucumber.io/docs/guides/overview/</guid>
+      <description>Cucumber is a tool that supports Behaviour-Driven Development(BDD). If you&amp;rsquo;re new to Behaviour-Driven Development read our BDD introduction first.
+What is Cucumber? Ok, now that you know that BDD is about discovery, collaboration and examples (and not testing), let&amp;rsquo;s take a look at Cucumber.
+Cucumber reads executable specifications written in plain text and validates that the software does what those specifications say. The specifications consists of multiple examples, or scenarios.</description>
+    </item>
+    
+    <item>
+      <title>Tools</title>
+      <link>https://cucumber.io/docs/tools/general/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://cucumber.io/docs/tools/general/</guid>
+      <description>Using Cucumber in your project is more manageable with the right tools.
+Editors Most popular text editors support Gherkin syntax highlighting.
+Some IDEs also have advanced support for Cucumber, such as running Cucumber from within the IDE, displaying results, navigating between Gherkin steps and step definitions and so on.
+Atom Atom is a text editor for macOS, Windows or Linux.
+It offers several packages you can use with Cucumber.</description>
+    </item>
+    
+    <item>
+      <title>10 Minute Tutorial</title>
+      <link>https://cucumber.io/docs/guides/10-minute-tutorial/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://cucumber.io/docs/guides/10-minute-tutorial/</guid>
+      <description>In this quick tutorial you will learn how to:
+ Install Cucumber Write your first Scenario using the Gherkin syntax Write your first step definition in JavaJavaScriptKotlinRuby Run Cucumber Learn the basic workflow of Behaviour-Driven Development (BDD)  We&amp;rsquo;ll use Cucumber to develop a small library that can figure out whether it&amp;rsquo;s Friday yet.
+Please be aware that this tutorial assumes that you have a:
+  Basic understanding of the Java programming language    Basic understanding of the Kotlin programming language    Basic understanding of the Javascript programming language    Basic understanding of the Ruby programming language Basic understanding of the Bundler tool and Gemfile    Some experience using a terminal Some experience using a text editor  Before we begin, you will need the following:</description>
+    </item>
+    
+    <item>
+      <title>Java Tools</title>
+      <link>https://cucumber.io/docs/tools/java/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://cucumber.io/docs/tools/java/</guid>
+      <description>This page describes tools commonly used with Java.
+IDEs IntelliJ IDEA  IntelliJ IDEA has the IntelliJ IDEA Cucumber for Java plugin  You can find more information on using Cucumber with IntelliJ IDEA in the IntelliJ IDEA Cucumber help pages
+Eclipse  Eclipse has the Cucumber Eclipse plugin  Build tools The most widely used build tools for Java are Maven and Gradle.
+Maven To run Cucumber with Maven, make sure that:</description>
+    </item>
+    
+    <item>
+      <title>Cucumber-JVM</title>
+      <link>https://cucumber.io/docs/installation/java/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://cucumber.io/docs/installation/java/</guid>
+      <description>Watch the Cucumber School video lesson on installing Cucumber for JVM languages here.
+Cucumber-JVM is published in the central Maven repository. You can install it by adding dependencies to your project.
+Dependencies
+ Make sure the Cucumber version is the same for all Cucumber dependencies.
+  Maven Add the following dependency to your pom.xml:
+&amp;lt;dependency&amp;gt; &amp;lt;groupId&amp;gt;io.cucumber&amp;lt;/groupId&amp;gt; &amp;lt;artifactId&amp;gt;cucumber-java&amp;lt;/artifactId&amp;gt; &amp;lt;version&amp;gt;7.17.0&amp;lt;/version&amp;gt; &amp;lt;scope&amp;gt;test&amp;lt;/scope&amp;gt; &amp;lt;/dependency&amp;gt;  You can now run Cucumber from the command line or run Cucumber with Maven.</description>
+    </item>
+    
+    <item>
+      <title>Cucumber.js</title>
+      <link>https://cucumber.io/docs/installation/javascript/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://cucumber.io/docs/installation/javascript/</guid>
+      <description> Watch the Cucumber School video lesson on installing Cucumber.js here.
+Cucumber.js is available as an npm module. It works with both Node.js and browsers.
+With Node.js Add cucumber as a development dependency:
+# NPM npm install --save-dev @cucumber/cucumber  Or, if you prefer Yarn:
+# Yarn yarn add --dev @cucumber/cucumber  </description>
+    </item>
+    
+    <item>
+      <title>Cucumber.rb</title>
+      <link>https://cucumber.io/docs/installation/ruby/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://cucumber.io/docs/installation/ruby/</guid>
+      <description>Watch the Cucumber School video lesson on installing Cucumber for Ruby here.
+Cucumber for Ruby is a Ruby gem. Depending on your project structure there are several ways to install it:
+Rubygems Install from the command line:
+gem install cucumber  Bundler (without Rails) Add cucumber to your Gemfile:
+gem &#39;cucumber&#39;  Install the gem:
+bundle  Try it out:
+cucumber --help  Then, initialize a features/ directory:
+cucumber --init  Bundler is a utility gem that manages project specific RubyGem dependencies such that each Rails project is unaffected by the gem requirements of another.</description>
+    </item>
+    
+    <item>
+      <title>Cucumber.ml</title>
+      <link>https://cucumber.io/docs/installation/ocaml/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://cucumber.io/docs/installation/ocaml/</guid>
+      <description>Cucumber.ml is an implementation written in and useful for OCaml projects.
+Prerequisites There are a few prerequisites before you can use Cucumber.ml:
+ Compile and install gherkin-c as a shared object on your system Install Opam package manager for OCaml Install Dune build system via Opam  Cucumber.ml delegates its Gherkin parsing to the gherkin-c implementation using OCaml&amp;rsquo;s foreign function interface. This means that, before you can use Cucumber.ml, you will need to compile and install gherkin-c as a shared library with its header files on your system.</description>
+    </item>
+    
+    <item>
+      <title>Cucumber.cpp</title>
+      <link>https://cucumber.io/docs/installation/cplusplus/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://cucumber.io/docs/installation/cplusplus/</guid>
+      <description>Please see the Cucumber.cpp website.</description>
+    </item>
+    
+    <item>
+      <title>Cucumber-Lua</title>
+      <link>https://cucumber.io/docs/installation/lua/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://cucumber.io/docs/installation/lua/</guid>
+      <description>Please see the Cucumber-Lua website.</description>
+    </item>
+    
+    <item>
+      <title>Android™</title>
+      <link>https://cucumber.io/docs/installation/android/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://cucumber.io/docs/installation/android/</guid>
+      <description>Please see the Cucumber-Android project on GitHub.</description>
+    </item>
+    
+    <item>
+      <title>Kotlin</title>
+      <link>https://cucumber.io/docs/installation/kotlin/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://cucumber.io/docs/installation/kotlin/</guid>
+      <description>There is no native Kotlin implementation of Cucumber, but you can use Cucumber-JVM to write Cucumber tests in Kotlin.
+For examples, please see the kotlin-java8 examples on GitHub.
+To get started, have a look at this blog.</description>
+    </item>
+    
+    <item>
+      <title>Cucumber-Scala</title>
+      <link>https://cucumber.io/docs/installation/scala/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://cucumber.io/docs/installation/scala/</guid>
+      <description>Cucumber-Scala is published in the central Maven repository. You can install it by adding dependencies to your project.
+Dependencies
+ Make sure the Cucumber version is the same for all Cucumber dependencies.
+  Maven &amp;lt;dependency&amp;gt; &amp;lt;groupId&amp;gt;io.cucumber&amp;lt;/groupId&amp;gt; &amp;lt;artifactId&amp;gt;cucumber-scala_2.13&amp;lt;/artifactId&amp;gt; &amp;lt;version&amp;gt;6.10.4&amp;lt;/version&amp;gt; &amp;lt;scope&amp;gt;test&amp;lt;/scope&amp;gt; &amp;lt;/dependency&amp;gt;  You can now run Cucumber from the command line or run Cucumber with Maven.
+Sbt libraryDependencies += &amp;quot;io.cucumber&amp;quot; %% &amp;quot;cucumber-scala&amp;quot; % &amp;quot;6.10.4&amp;quot; % Test  JUnit 5 integration It is also possible to use cucumber-junit-platform-engine to run your Cucumber test suite.</description>
+    </item>
+    
+    <item>
+      <title>Cucumber-Tcl</title>
+      <link>https://cucumber.io/docs/installation/tcl/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://cucumber.io/docs/installation/tcl/</guid>
+      <description>Please see the Cucumber-Tcl website.</description>
+    </item>
+    
+    <item>
+      <title>Godog</title>
+      <link>https://cucumber.io/docs/installation/golang/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://cucumber.io/docs/installation/golang/</guid>
+      <description>Please see the godog repo.</description>
+    </item>
+    
+    <item>
+      <title>Xunit.Gherkin.Quick</title>
+      <link>https://cucumber.io/docs/installation/xunit-gherkin-quick/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://cucumber.io/docs/installation/xunit-gherkin-quick/</guid>
+      <description>Please see the Xunit.Gherkin.Quick website.</description>
+    </item>
+    
+    <item>
+      <title>Behat</title>
+      <link>https://cucumber.io/docs/installation/php/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://cucumber.io/docs/installation/php/</guid>
+      <description>Please see the Behat website.</description>
+    </item>
+    
+    <item>
+      <title>Behave</title>
+      <link>https://cucumber.io/docs/installation/python/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://cucumber.io/docs/installation/python/</guid>
+      <description>Please see the Behave website.</description>
+    </item>
+    
+    <item>
+      <title>SpecFlow</title>
+      <link>https://cucumber.io/docs/installation/specflow/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://cucumber.io/docs/installation/specflow/</guid>
+      <description>Please see the SpecFlow website.</description>
+    </item>
+    
+    <item>
+      <title>Cucumberish</title>
+      <link>https://cucumber.io/docs/installation/ios/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://cucumber.io/docs/installation/ios/</guid>
+      <description>Please see the Cucumberish website.</description>
+    </item>
+    
+    <item>
+      <title>Test::BDD-Cucumber</title>
+      <link>https://cucumber.io/docs/installation/perl/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://cucumber.io/docs/installation/perl/</guid>
+      <description>Please see the Cucumber-Perl website.</description>
+    </item>
+    
+    <item>
+      <title>gocuke</title>
+      <link>https://cucumber.io/docs/installation/gocuke/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://cucumber.io/docs/installation/gocuke/</guid>
+      <description>Please see the gocuke repo.</description>
+    </item>
+    
+    <item>
+      <title>Cucumber-Rust</title>
+      <link>https://cucumber.io/docs/installation/rust/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://cucumber.io/docs/installation/rust/</guid>
+      <description>Please see the Cucumber-Rust website.</description>
+    </item>
+    
+    <item>
+      <title>GoBDD</title>
+      <link>https://cucumber.io/docs/installation/gobdd/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://cucumber.io/docs/installation/gobdd/</guid>
+      <description>Please see the gobdd repo.</description>
+    </item>
+    
+    <item>
+      <title>JavaScript Tools</title>
+      <link>https://cucumber.io/docs/tools/javascript/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://cucumber.io/docs/tools/javascript/</guid>
+      <description>This page describes tools commonly used with JavaScript.
+Build tools The most widely used build tools for JavaScript are npm and Yarn.
+npm To use Cucumber with npm, make sure that:
+ npm is installed  Cucumber.js is available as an npm module.
+Add cucumber as a development dependency:
+# NPM npm install --save-dev @cucumber/cucumber  Yarn To run Cucumber with Yarn, make sure that:
+ Yarn is installed  Add cucumber as a development dependency:</description>
+    </item>
+    
+    <item>
+      <title>unencumbered</title>
+      <link>https://cucumber.io/docs/installation/d/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://cucumber.io/docs/installation/d/</guid>
+      <description>Please see the unencumbered website.</description>
+    </item>
+    
+    <item>
+      <title>Browser Automation</title>
+      <link>https://cucumber.io/docs/guides/browser-automation/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://cucumber.io/docs/guides/browser-automation/</guid>
+      <description>Cucumber is not a browser automation tool, but it works well with the following browser automation tools.
+Selenium WebDriver WebDriver is designed to provide a simpler, more concise programming interface than some other tools. Selenium WebDriver better supports dynamic web pages where elements of a page may change without the page itself being reloaded. WebDriver&amp;rsquo;s goal is to supply a well-designed object-oriented API that provides improved support for modern advanced web-app testing problems.</description>
+    </item>
+    
+    <item>
+      <title>Cucumber-Clojure</title>
+      <link>https://cucumber.io/docs/installation/clojure/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://cucumber.io/docs/installation/clojure/</guid>
+      <description>This package is currently in need of new maintainers.
+Please see Cucumber-Clojure.</description>
+    </item>
+    
+    <item>
+      <title>Ruby Tools</title>
+      <link>https://cucumber.io/docs/tools/ruby/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://cucumber.io/docs/tools/ruby/</guid>
+      <description>This page describes tools for a Ruby or Ruby on Rails environment.
+IDEs RubyMine RubyMine is a Ruby and Rails IDE.
+Build tools Cucumber can be run in several ways. Be aware that rake cucumber, cucumber features, and autotest with ENV AUTOFEATURE=true do not necessarily produce the same results given the same features and step definitions.
+Rake Running rake cucumber from the command line provides the simplest method to run Cucumber tests.</description>
+    </item>
+    
+    <item>
+      <title>Cucumber-Gosu</title>
+      <link>https://cucumber.io/docs/installation/gosu/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://cucumber.io/docs/installation/gosu/</guid>
+      <description>This package is currently in need of new maintainers.
+Please see Cucumber-Gosu.</description>
+    </item>
+    
+    <item>
+      <title>Cucumber-Groovy</title>
+      <link>https://cucumber.io/docs/installation/groovy/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://cucumber.io/docs/installation/groovy/</guid>
+      <description>This package is currently in need of new maintainers.
+Please see Cucumber-Groovy.</description>
+    </item>
+    
+    <item>
+      <title>Cucumber-JRuby</title>
+      <link>https://cucumber.io/docs/installation/jruby/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://cucumber.io/docs/installation/jruby/</guid>
+      <description>This package is currently in need of new maintainers.
+Please see Cucumber-JRuby.</description>
+    </item>
+    
+    <item>
+      <title>Cucumber-Jython</title>
+      <link>https://cucumber.io/docs/installation/jython/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://cucumber.io/docs/installation/jython/</guid>
+      <description>This package is currently in need of new maintainers.
+Please see Cucumber-Jython.</description>
+    </item>
+    
+    <item>
+      <title>API Automation</title>
+      <link>https://cucumber.io/docs/guides/api-automation/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://cucumber.io/docs/guides/api-automation/</guid>
+      <description>Cucumber is not an API automation tool, but it works well with other API automation tools.
+Using API&amp;rsquo;s for your automation, can make your tests faster and less flaky than going through the UI. In general, API&amp;rsquo;s change less frequently than the UI; keeping your automation up to date for longer.
+API Automation Tools for JVM RestAssured RestAssured is an API automation tool for Java.
+You can use RestAssured in your step definitions to make API calls and verify responses.</description>
+    </item>
+    
+    <item>
+      <title>Related tools</title>
+      <link>https://cucumber.io/docs/tools/related-tools/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://cucumber.io/docs/tools/related-tools/</guid>
+      <description>People have written tools on top of Cucumber. These are the known third-party tools that work together with Cucumber:
+   Tool Description     Aruba Generic Step Definitions for command-line programs   AssertThat BDD &amp;amp; Test Management in Jira Combines feature/scenario management as well as built in test automation reporting in Jira. Website AssertThat   Backyard Name the models in your Cucumbers with ease   BDD Generator Generates random BDD scenarios in Gherkin format for testing purposes.</description>
+    </item>
+    
+    <item>
+      <title>Testable Architecture</title>
+      <link>https://cucumber.io/docs/guides/testable-architecture/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://cucumber.io/docs/guides/testable-architecture/</guid>
+      <description>Automated tests and executable specifications can only work with software that has a testable architecture. A testable architecture enables fast and reliable tests that are easy to write, execute and maintain.
+Fast feedback Fast tests enable the developers to run them frequently to obtain fast feedback on what they are building, without losing focus or flow.
+Testability When designing for testability, make sure that your products and services are composed of loosely-coupled, well-encapsulated components or modules.</description>
+    </item>
+    
+    <item>
+      <title>Continuous Build</title>
+      <link>https://cucumber.io/docs/guides/continuous-integration/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://cucumber.io/docs/guides/continuous-integration/</guid>
+      <description>Using Cucumber in a Continuous Integration (CI) environment is relatively straightforward.
+The cucumber executable will exit with an exit status different from 0 if one or more scenarios are failing. This is all your CI server needs to know.
+First, you have to make sure your CI server executes Cucumber. Most CI setups invoke some kind of build tool. Common build tools are:
+ Rake Ant Maven  We recommend executing Cucumber from one of these on a CI server.</description>
+    </item>
+    
+    <item>
+      <title>Anti-patterns</title>
+      <link>https://cucumber.io/docs/guides/anti-patterns/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://cucumber.io/docs/guides/anti-patterns/</guid>
+      <description>There are several anti-patterns, which we will describe here. We will also give you hints on how to avoid them!
+Feature-coupled step definitions Feature-coupled step definitions are step definitions that can&amp;rsquo;t be reused across features or scenarios.
+This may lead to an explosion of step definitions, code duplication, and high maintenance costs.
+Example
+An imaginary résumé application could have the following Feature and Step Definition files:
+features/ +--edit_work_experience.feature +--edit_languages.feature +--edit_education.</description>
+    </item>
+    
+    <item>
+      <title>Upgrading</title>
+      <link>https://cucumber.io/docs/guides/upgrading/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://cucumber.io/docs/guides/upgrading/</guid>
+      <description>We try to add new features to Cucumber periodically. This means you may want to upgrade to a newer version to take advantage of these new features, as well as any bug fixes.
+Versioning Cucumber tries to follow the SemVer specification for release numbers. Essentially, this means that:
+ If only the right-hand (patch) number in the release changes, you don&amp;rsquo;t need to worry. If the middle number (minor) number in the release changes, you don&amp;rsquo;t need to worry.</description>
+    </item>
+    
+    <item>
+      <title>Parallel Execution</title>
+      <link>https://cucumber.io/docs/guides/parallel-execution/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://cucumber.io/docs/guides/parallel-execution/</guid>
+      <description>Cucumber-JVM allows parallel execution across multiple threads since version 4.0.0.
+There are several options to incorporate this built-in feature in a Cucumber project. You can do so using:
+ JUnit 5 JUnit 4 TestNG CLI  For each of these options, this tutorial will look at the project setup, configuration settings and execution commands.
+ Cucumber-JVM allows parallel execution across multiple threads since version 4.0.0.
+There are several options to incorporate this built-in feature in a Cucumber project.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://cucumber.io/index.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://cucumber.io/index.json</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Checking Assertions</title>
+      <link>https://cucumber.io/docs/cucumber/checking-assertions/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://cucumber.io/docs/cucumber/checking-assertions/</guid>
+      <description>Your Then steps should make assertions comparing expected results to actual results from your application.
+Cucumber does not come with an assertion library. Instead, use the assertion methods from a unit testing tool.
+Java JUnit 5 When using the cucumber-junit-platform-engine you are free to use any assertion library of your choice. For example:
+ AssertJ Hamcrest JUnit Jupiter  JUnit 4 When using JUnit 4 to run Cucumber we recommend using JUnit 4&amp;rsquo;s assert* methods.</description>
+    </item>
+    
+    <item>
+      <title>Cucumber Configuration</title>
+      <link>https://cucumber.io/docs/cucumber/configuration/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://cucumber.io/docs/cucumber/configuration/</guid>
+      <description>Type Registry Parameter types let you convert parameters from cucumber-expressions to objects. Data table and doc string types let you convert data tables and doc strings to objects. Like step definitions, type definitions are part of the glue. When placed on the glue path Cucumber will detect them automatically.
+ Parameter types let you convert parameters from cucumber-expressions to objects. Data table and doc string types let you convert data tables and doc strings to objects.</description>
+    </item>
+    
+    <item>
+      <title>Cucumber Expressions</title>
+      <link>https://cucumber.io/docs/cucumber/cucumber-expressions/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://cucumber.io/docs/cucumber/cucumber-expressions/</guid>
+      <description>The Cucumber Expressions Docs have been moved to GitHub.</description>
+    </item>
+    
+    <item>
+      <title>Cucumber Reference</title>
+      <link>https://cucumber.io/_todo/step-reuse/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://cucumber.io/_todo/step-reuse/</guid>
+      <description>Reusable step definitions TODO: Describe how to use output parameters to make step definitions reusable
+Reusable helper methods TODO: Describe how to extract helper methods that can be used from steps</description>
+    </item>
+    
+    <item>
+      <title>Debugging</title>
+      <link>https://cucumber.io/docs/cucumber/debugging/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://cucumber.io/docs/cucumber/debugging/</guid>
+      <description>(The code given below calls on the logging facilities of Ruby on Rails. If you&amp;rsquo;re not using Rails, replace those calls with puts or warn.)
+Adding the following as the contents of features/support/debugging.rb can be helpful in debugging failing steps:
+# rubocop:disable Lint/Debugger class CucumberCounters @error_counter = 0 @step_counter = 0 @screenshot_counter = 0 class &amp;lt;&amp;lt; self attr_accessor :error_counter, :step_counter, :screenshot_counter end end # `LAUNCHY=1 cucumber` to open save screenshot after every step After do |scenario| next unless (ENV[&#39;LAUNCHY&#39;] || ENV[&#39;CI&#39;]) &amp;amp;&amp;amp; scenario.</description>
+    </item>
+    
+    <item>
+      <title>Discovery workshop</title>
+      <link>https://cucumber.io/docs/bdd/discovery-workshop/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://cucumber.io/docs/bdd/discovery-workshop/</guid>
+      <description>What is a discovery workshop? A discovery workshop is a conversation where technical and business people collaborate to explore, discover and agree as much as they can about the desired behaviour for a User Story.
+How do you conduct a discovery workshop? There are several discovery workshop models, these are just a few:
+Example Mapping
+Uses a pack of index cards in four different colours to map rules (a summary of constraints/acceptance criteria the team has agreed upon) to examples (illustrations/cases of the acceptance criteria)</description>
+    </item>
+    
+    <item>
+      <title>Environment Variables</title>
+      <link>https://cucumber.io/docs/cucumber/environment-variables/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://cucumber.io/docs/cucumber/environment-variables/</guid>
+      <description>Cucumber uses environment variables to enable certain features, such as publishing Cucumber Reports.
+There are many different ways to define environment variables, depending on your environment. This guide describes how to define the CUCUMBER_PUBLISH_TOKEN environment variable with value some-secret-token.
+For security reasons you should not define environment variables containing secrets globally.
+For MacOS and Linux users this means you should not define them in ~/.bashrc, ~/.bash_profile, ~/.zshrc, /etc.profile or similar.</description>
+    </item>
+    
+    <item>
+      <title>Example Mapping</title>
+      <link>https://cucumber.io/docs/bdd/example-mapping/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://cucumber.io/docs/bdd/example-mapping/</guid>
+      <description>Before you pull a user story into development, it’s crucial to have a conversation to clarify and confirm the acceptance criteria.
+Example Mapping is a method designed to make this conversation short and very productive.
+How it works Concrete examples are a great way to help us explore and understand the problem domain. They are a great basis for our acceptance tests.
+When discussing examples, other things might come up in the conversation that deserve to be captured too:</description>
+    </item>
+    
+    <item>
+      <title>Examples</title>
+      <link>https://cucumber.io/docs/bdd/examples/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://cucumber.io/docs/bdd/examples/</guid>
+      <description>Good BDD examples are concrete rather than abstract. They mention names of people and places, exact dates and amounts, and anything that is relevant to the problem domain of the software.
+Good examples don&amp;rsquo;t mention technical details.
+Imagine it&amp;#39;s 1922
+ Most software does something people could do manually (just not as efficiently).
+Try hard to come up with examples that don&amp;rsquo;t make any assumptions about technology. Imagine it&amp;rsquo;s 1922, when there were no computers.</description>
+    </item>
+    
+    <item>
+      <title>Gherkin Reference</title>
+      <link>https://cucumber.io/docs/gherkin/reference/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://cucumber.io/docs/gherkin/reference/</guid>
+      <description>Gherkin uses a set of special keywords to give structure and meaning to executable specifications. Each keyword is translated to many spoken languages; in this reference we&amp;rsquo;ll use English.
+Most lines in a Gherkin document start with one of the keywords.
+Comments are only permitted at the start of a new line, anywhere in the feature file. They begin with zero or more spaces, followed by a hash sign (#) and some text.</description>
+    </item>
+    
+    <item>
+      <title>History of BDD</title>
+      <link>https://cucumber.io/docs/bdd/history/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://cucumber.io/docs/bdd/history/</guid>
+      <description>Behavior-driven development was pioneered by Daniel Terhorst-North back in the early 00s, as he explained in a 2006 article called Introducing BDD. It grew from a response to test-driven development (TDD), as a way to help programmers on new agile teams &amp;ldquo;get straight to the good stuff&amp;rdquo; of knowing how to approach testing and coding, and minimize misunderstandings. BDD has evolved into both analysis and automated testing at the acceptance level.</description>
+    </item>
+    
+    <item>
+      <title>Localisation</title>
+      <link>https://cucumber.io/docs/gherkin/languages/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://cucumber.io/docs/gherkin/languages/</guid>
+      <description>In order to allow Gherkin to be written in a number of languages, the keywords have been translated into multiple languages. To improve readability and flow, some languages may have more than one translation for any given keyword.
+Overview You can find all translation of Gherkin on GitHub. This is also the place to add or update translations.
+A list of the currently supported languages and their keywords can be found below.</description>
+    </item>
+    
+    <item>
+      <title>Mocking and Stubbing with Cucumber</title>
+      <link>https://cucumber.io/docs/cucumber/mocking-and-stubbing-with-cucumber/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://cucumber.io/docs/cucumber/mocking-and-stubbing-with-cucumber/</guid>
+      <description>Mocking is usually discouraged when using Cucumber; ideally you would exercise as much of your stack as possible. There are cases when using mocking can come in handy. For example, if your system depends on a third party. If you have a dependency on an external system, we recommend using stubs instead of mocks. You can set up mocks with expectations in your step definitions.
+Ruby RSpec 2.x Starting with Cucumber 0.</description>
+    </item>
+    
+    <item>
+      <title>Myths about BDD</title>
+      <link>https://cucumber.io/docs/bdd/myths/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://cucumber.io/docs/bdd/myths/</guid>
+      <description>Let&amp;rsquo;s bust some of the most common myths and misunderstandings about BDD.
+Myth: You can pick and choose the practices in any order Here&amp;rsquo;s Liz Keogh&amp;rsquo;s take on this:
+ having conversations is more important than capturing conversations is more important than automating conversations.
+ Unless you&amp;rsquo;ve already done effective discovery work, trying to formulate scenarios is a waste of time.
+Similarly, you can&amp;rsquo;t automate examples when you haven&amp;rsquo;t done the work to figure out the most important examples to automate, or got your business stakeholder&amp;rsquo;s feedback in how to word them.</description>
+    </item>
+    
+    <item>
+      <title>Reporting</title>
+      <link>https://cucumber.io/docs/cucumber/reporting/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://cucumber.io/docs/cucumber/reporting/</guid>
+      <description>Cucumber uses reporter plugins to produce reports that contain information about what scenarios have passed or failed.
+Some plugins are built-in, others have to be installed separately. You can also build your own.
+This page documents built-in formatter plugins, custom formatters and some common third-party plugins. Available plugins may vary per programming language.
+Cucumber Reports Service The easiest way to get started with reporting is to use the Cucumber Reports service.</description>
+    </item>
+    
+    <item>
+      <title>State</title>
+      <link>https://cucumber.io/docs/cucumber/state/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://cucumber.io/docs/cucumber/state/</guid>
+      <description>Sharing state between scenarios Don&amp;rsquo;t do it.
+Scenarios must be independent from each other so it is important that state is not shared between scenarios. Accidentally leaking state from one scenario into others makes your scenarios brittle and also difficult to run in isolation.
+To prevent accidentally leaking state between scenarios:
+ Avoid using global or static variables. Make sure you clean your database in a Before hook. If you share a browser between scenarios, delete cookies in a Before hook.</description>
+    </item>
+    
+    <item>
+      <title>Step Organization</title>
+      <link>https://cucumber.io/docs/gherkin/step-organization/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://cucumber.io/docs/gherkin/step-organization/</guid>
+      <description>You can have all of your step definitions in one file, or in multiple files. When you start with your project, all your step definitions will probably be in one file. As your project grows, you should split your step definitions into meaningful groups in different files. This will make your project more logical and easier to maintain.
+How Cucumber finds your features and step definitions Be aware that, regardless of the directory structure employed, Cucumber effectively flattens the features/ directory tree when running tests.</description>
+    </item>
+    
+    <item>
+      <title>User stories</title>
+      <link>https://cucumber.io/docs/terms/user-story/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://cucumber.io/docs/terms/user-story/</guid>
+      <description>A User Story is a small piece of valuable functionality used for planning and prioritising work on an agile team.
+A good User Story should:
+ Deliver a demonstrable piece of functionality Have testable acceptance criteria  and be
+ Independent Negotiable Valuable Estimatible Small Testable  Story Format A good User Story should describe the Who (&amp;lt;actor&amp;gt;), What (&amp;lt;feature&amp;gt;) and Why (&amp;lt;benefit&amp;gt;).
+As an &amp;lt;actor&amp;gt; I want a &amp;lt;feature&amp;gt; So that &amp;lt;benefit&amp;gt;  Example:</description>
+    </item>
+    
+    <item>
+      <title>Who Does What?</title>
+      <link>https://cucumber.io/docs/bdd/who-does-what/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://cucumber.io/docs/bdd/who-does-what/</guid>
+      <description>Who should be writing Gherkin documents, and who should write step definitions?
+Product owners, business analysts, programmers and testers are often confused about who should take on what responsibilities.
+The answer depends on several factors, such as team structure, skills, culture, process and more.
+The Three Amigos The Three Amigos is a meeting that takes user stories and turns them into clean, thorough Gherkin scenarios. It involves three voices (at least):</description>
+    </item>
+    
+    <item>
+      <title>Writing better Gherkin</title>
+      <link>https://cucumber.io/docs/bdd/better-gherkin/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://cucumber.io/docs/bdd/better-gherkin/</guid>
+      <description>There are several ways to make your Gherkin better.
+Describe behaviour Your scenarios should describe the intended behaviour of the system, not the implementation. In other words, it should describe what, not how.
+For example, for an authentication Scenario, you should write:
+When &amp;quot;Bob&amp;quot; logs in  instead of:
+ Given I visit &amp;quot;/login&amp;quot; When I enter &amp;quot;Bob&amp;quot; in the &amp;quot;user name&amp;quot; field And I enter &amp;quot;tester&amp;quot; in the &amp;quot;password&amp;quot; field And I press the &amp;quot;login&amp;quot; button Then I should see the &amp;quot;welcome&amp;quot; page  The first example, When &amp;ldquo;Bob&amp;rdquo; logs in, is a functional requirement.</description>
+    </item>
+    
+  </channel>
+</rss>

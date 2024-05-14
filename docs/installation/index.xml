@@ -1,0 +1,277 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Installation on Cucumber Documentation</title>
+    <link>https://cucumber.io/docs/installation/</link>
+    <description>Recent content in Installation on Cucumber Documentation</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    
+	<atom:link href="https://cucumber.io/docs/installation/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Cucumber-JVM</title>
+      <link>https://cucumber.io/docs/installation/java/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://cucumber.io/docs/installation/java/</guid>
+      <description>Watch the Cucumber School video lesson on installing Cucumber for JVM languages here.
+Cucumber-JVM is published in the central Maven repository. You can install it by adding dependencies to your project.
+Dependencies
+ Make sure the Cucumber version is the same for all Cucumber dependencies.
+  Maven Add the following dependency to your pom.xml:
+&amp;lt;dependency&amp;gt; &amp;lt;groupId&amp;gt;io.cucumber&amp;lt;/groupId&amp;gt; &amp;lt;artifactId&amp;gt;cucumber-java&amp;lt;/artifactId&amp;gt; &amp;lt;version&amp;gt;7.17.0&amp;lt;/version&amp;gt; &amp;lt;scope&amp;gt;test&amp;lt;/scope&amp;gt; &amp;lt;/dependency&amp;gt;  You can now run Cucumber from the command line or run Cucumber with Maven.</description>
+    </item>
+    
+    <item>
+      <title>Cucumber.js</title>
+      <link>https://cucumber.io/docs/installation/javascript/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://cucumber.io/docs/installation/javascript/</guid>
+      <description> Watch the Cucumber School video lesson on installing Cucumber.js here.
+Cucumber.js is available as an npm module. It works with both Node.js and browsers.
+With Node.js Add cucumber as a development dependency:
+# NPM npm install --save-dev @cucumber/cucumber  Or, if you prefer Yarn:
+# Yarn yarn add --dev @cucumber/cucumber  </description>
+    </item>
+    
+    <item>
+      <title>Cucumber.rb</title>
+      <link>https://cucumber.io/docs/installation/ruby/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://cucumber.io/docs/installation/ruby/</guid>
+      <description>Watch the Cucumber School video lesson on installing Cucumber for Ruby here.
+Cucumber for Ruby is a Ruby gem. Depending on your project structure there are several ways to install it:
+Rubygems Install from the command line:
+gem install cucumber  Bundler (without Rails) Add cucumber to your Gemfile:
+gem &#39;cucumber&#39;  Install the gem:
+bundle  Try it out:
+cucumber --help  Then, initialize a features/ directory:
+cucumber --init  Bundler is a utility gem that manages project specific RubyGem dependencies such that each Rails project is unaffected by the gem requirements of another.</description>
+    </item>
+    
+    <item>
+      <title>Cucumber.ml</title>
+      <link>https://cucumber.io/docs/installation/ocaml/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://cucumber.io/docs/installation/ocaml/</guid>
+      <description>Cucumber.ml is an implementation written in and useful for OCaml projects.
+Prerequisites There are a few prerequisites before you can use Cucumber.ml:
+ Compile and install gherkin-c as a shared object on your system Install Opam package manager for OCaml Install Dune build system via Opam  Cucumber.ml delegates its Gherkin parsing to the gherkin-c implementation using OCaml&amp;rsquo;s foreign function interface. This means that, before you can use Cucumber.ml, you will need to compile and install gherkin-c as a shared library with its header files on your system.</description>
+    </item>
+    
+    <item>
+      <title>Cucumber.cpp</title>
+      <link>https://cucumber.io/docs/installation/cplusplus/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://cucumber.io/docs/installation/cplusplus/</guid>
+      <description>Please see the Cucumber.cpp website.</description>
+    </item>
+    
+    <item>
+      <title>Cucumber-Lua</title>
+      <link>https://cucumber.io/docs/installation/lua/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://cucumber.io/docs/installation/lua/</guid>
+      <description>Please see the Cucumber-Lua website.</description>
+    </item>
+    
+    <item>
+      <title>Android™</title>
+      <link>https://cucumber.io/docs/installation/android/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://cucumber.io/docs/installation/android/</guid>
+      <description>Please see the Cucumber-Android project on GitHub.</description>
+    </item>
+    
+    <item>
+      <title>Kotlin</title>
+      <link>https://cucumber.io/docs/installation/kotlin/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://cucumber.io/docs/installation/kotlin/</guid>
+      <description>There is no native Kotlin implementation of Cucumber, but you can use Cucumber-JVM to write Cucumber tests in Kotlin.
+For examples, please see the kotlin-java8 examples on GitHub.
+To get started, have a look at this blog.</description>
+    </item>
+    
+    <item>
+      <title>Cucumber-Scala</title>
+      <link>https://cucumber.io/docs/installation/scala/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://cucumber.io/docs/installation/scala/</guid>
+      <description>Cucumber-Scala is published in the central Maven repository. You can install it by adding dependencies to your project.
+Dependencies
+ Make sure the Cucumber version is the same for all Cucumber dependencies.
+  Maven &amp;lt;dependency&amp;gt; &amp;lt;groupId&amp;gt;io.cucumber&amp;lt;/groupId&amp;gt; &amp;lt;artifactId&amp;gt;cucumber-scala_2.13&amp;lt;/artifactId&amp;gt; &amp;lt;version&amp;gt;6.10.4&amp;lt;/version&amp;gt; &amp;lt;scope&amp;gt;test&amp;lt;/scope&amp;gt; &amp;lt;/dependency&amp;gt;  You can now run Cucumber from the command line or run Cucumber with Maven.
+Sbt libraryDependencies += &amp;quot;io.cucumber&amp;quot; %% &amp;quot;cucumber-scala&amp;quot; % &amp;quot;6.10.4&amp;quot; % Test  JUnit 5 integration It is also possible to use cucumber-junit-platform-engine to run your Cucumber test suite.</description>
+    </item>
+    
+    <item>
+      <title>Cucumber-Tcl</title>
+      <link>https://cucumber.io/docs/installation/tcl/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://cucumber.io/docs/installation/tcl/</guid>
+      <description>Please see the Cucumber-Tcl website.</description>
+    </item>
+    
+    <item>
+      <title>Godog</title>
+      <link>https://cucumber.io/docs/installation/golang/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://cucumber.io/docs/installation/golang/</guid>
+      <description>Please see the godog repo.</description>
+    </item>
+    
+    <item>
+      <title>Xunit.Gherkin.Quick</title>
+      <link>https://cucumber.io/docs/installation/xunit-gherkin-quick/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://cucumber.io/docs/installation/xunit-gherkin-quick/</guid>
+      <description>Please see the Xunit.Gherkin.Quick website.</description>
+    </item>
+    
+    <item>
+      <title>Behat</title>
+      <link>https://cucumber.io/docs/installation/php/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://cucumber.io/docs/installation/php/</guid>
+      <description>Please see the Behat website.</description>
+    </item>
+    
+    <item>
+      <title>Behave</title>
+      <link>https://cucumber.io/docs/installation/python/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://cucumber.io/docs/installation/python/</guid>
+      <description>Please see the Behave website.</description>
+    </item>
+    
+    <item>
+      <title>SpecFlow</title>
+      <link>https://cucumber.io/docs/installation/specflow/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://cucumber.io/docs/installation/specflow/</guid>
+      <description>Please see the SpecFlow website.</description>
+    </item>
+    
+    <item>
+      <title>Cucumberish</title>
+      <link>https://cucumber.io/docs/installation/ios/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://cucumber.io/docs/installation/ios/</guid>
+      <description>Please see the Cucumberish website.</description>
+    </item>
+    
+    <item>
+      <title>Test::BDD-Cucumber</title>
+      <link>https://cucumber.io/docs/installation/perl/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://cucumber.io/docs/installation/perl/</guid>
+      <description>Please see the Cucumber-Perl website.</description>
+    </item>
+    
+    <item>
+      <title>gocuke</title>
+      <link>https://cucumber.io/docs/installation/gocuke/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://cucumber.io/docs/installation/gocuke/</guid>
+      <description>Please see the gocuke repo.</description>
+    </item>
+    
+    <item>
+      <title>Cucumber-Rust</title>
+      <link>https://cucumber.io/docs/installation/rust/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://cucumber.io/docs/installation/rust/</guid>
+      <description>Please see the Cucumber-Rust website.</description>
+    </item>
+    
+    <item>
+      <title>GoBDD</title>
+      <link>https://cucumber.io/docs/installation/gobdd/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://cucumber.io/docs/installation/gobdd/</guid>
+      <description>Please see the gobdd repo.</description>
+    </item>
+    
+    <item>
+      <title>unencumbered</title>
+      <link>https://cucumber.io/docs/installation/d/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://cucumber.io/docs/installation/d/</guid>
+      <description>Please see the unencumbered website.</description>
+    </item>
+    
+    <item>
+      <title>Cucumber-Clojure</title>
+      <link>https://cucumber.io/docs/installation/clojure/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://cucumber.io/docs/installation/clojure/</guid>
+      <description>This package is currently in need of new maintainers.
+Please see Cucumber-Clojure.</description>
+    </item>
+    
+    <item>
+      <title>Cucumber-Gosu</title>
+      <link>https://cucumber.io/docs/installation/gosu/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://cucumber.io/docs/installation/gosu/</guid>
+      <description>This package is currently in need of new maintainers.
+Please see Cucumber-Gosu.</description>
+    </item>
+    
+    <item>
+      <title>Cucumber-Groovy</title>
+      <link>https://cucumber.io/docs/installation/groovy/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://cucumber.io/docs/installation/groovy/</guid>
+      <description>This package is currently in need of new maintainers.
+Please see Cucumber-Groovy.</description>
+    </item>
+    
+    <item>
+      <title>Cucumber-JRuby</title>
+      <link>https://cucumber.io/docs/installation/jruby/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://cucumber.io/docs/installation/jruby/</guid>
+      <description>This package is currently in need of new maintainers.
+Please see Cucumber-JRuby.</description>
+    </item>
+    
+    <item>
+      <title>Cucumber-Jython</title>
+      <link>https://cucumber.io/docs/installation/jython/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://cucumber.io/docs/installation/jython/</guid>
+      <description>This package is currently in need of new maintainers.
+Please see Cucumber-Jython.</description>
+    </item>
+    
+  </channel>
+</rss>

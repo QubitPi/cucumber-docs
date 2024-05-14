@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Behaviour-Driven Development on Cucumber Documentation</title>
+    <link>https://cucumber.io/docs/bdd/</link>
+    <description>Recent content in Behaviour-Driven Development on Cucumber Documentation</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    
+	<atom:link href="https://cucumber.io/docs/bdd/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Discovery workshop</title>
+      <link>https://cucumber.io/docs/bdd/discovery-workshop/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://cucumber.io/docs/bdd/discovery-workshop/</guid>
+      <description>What is a discovery workshop? A discovery workshop is a conversation where technical and business people collaborate to explore, discover and agree as much as they can about the desired behaviour for a User Story.
+How do you conduct a discovery workshop? There are several discovery workshop models, these are just a few:
+Example Mapping
+Uses a pack of index cards in four different colours to map rules (a summary of constraints/acceptance criteria the team has agreed upon) to examples (illustrations/cases of the acceptance criteria)</description>
+    </item>
+    
+    <item>
+      <title>Example Mapping</title>
+      <link>https://cucumber.io/docs/bdd/example-mapping/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://cucumber.io/docs/bdd/example-mapping/</guid>
+      <description>Before you pull a user story into development, it’s crucial to have a conversation to clarify and confirm the acceptance criteria.
+Example Mapping is a method designed to make this conversation short and very productive.
+How it works Concrete examples are a great way to help us explore and understand the problem domain. They are a great basis for our acceptance tests.
+When discussing examples, other things might come up in the conversation that deserve to be captured too:</description>
+    </item>
+    
+    <item>
+      <title>Examples</title>
+      <link>https://cucumber.io/docs/bdd/examples/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://cucumber.io/docs/bdd/examples/</guid>
+      <description>Good BDD examples are concrete rather than abstract. They mention names of people and places, exact dates and amounts, and anything that is relevant to the problem domain of the software.
+Good examples don&amp;rsquo;t mention technical details.
+Imagine it&amp;#39;s 1922
+ Most software does something people could do manually (just not as efficiently).
+Try hard to come up with examples that don&amp;rsquo;t make any assumptions about technology. Imagine it&amp;rsquo;s 1922, when there were no computers.</description>
+    </item>
+    
+    <item>
+      <title>History of BDD</title>
+      <link>https://cucumber.io/docs/bdd/history/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://cucumber.io/docs/bdd/history/</guid>
+      <description>Behavior-driven development was pioneered by Daniel Terhorst-North back in the early 00s, as he explained in a 2006 article called Introducing BDD. It grew from a response to test-driven development (TDD), as a way to help programmers on new agile teams &amp;ldquo;get straight to the good stuff&amp;rdquo; of knowing how to approach testing and coding, and minimize misunderstandings. BDD has evolved into both analysis and automated testing at the acceptance level.</description>
+    </item>
+    
+    <item>
+      <title>Myths about BDD</title>
+      <link>https://cucumber.io/docs/bdd/myths/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://cucumber.io/docs/bdd/myths/</guid>
+      <description>Let&amp;rsquo;s bust some of the most common myths and misunderstandings about BDD.
+Myth: You can pick and choose the practices in any order Here&amp;rsquo;s Liz Keogh&amp;rsquo;s take on this:
+ having conversations is more important than capturing conversations is more important than automating conversations.
+ Unless you&amp;rsquo;ve already done effective discovery work, trying to formulate scenarios is a waste of time.
+Similarly, you can&amp;rsquo;t automate examples when you haven&amp;rsquo;t done the work to figure out the most important examples to automate, or got your business stakeholder&amp;rsquo;s feedback in how to word them.</description>
+    </item>
+    
+    <item>
+      <title>Who Does What?</title>
+      <link>https://cucumber.io/docs/bdd/who-does-what/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://cucumber.io/docs/bdd/who-does-what/</guid>
+      <description>Who should be writing Gherkin documents, and who should write step definitions?
+Product owners, business analysts, programmers and testers are often confused about who should take on what responsibilities.
+The answer depends on several factors, such as team structure, skills, culture, process and more.
+The Three Amigos The Three Amigos is a meeting that takes user stories and turns them into clean, thorough Gherkin scenarios. It involves three voices (at least):</description>
+    </item>
+    
+    <item>
+      <title>Writing better Gherkin</title>
+      <link>https://cucumber.io/docs/bdd/better-gherkin/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://cucumber.io/docs/bdd/better-gherkin/</guid>
+      <description>There are several ways to make your Gherkin better.
+Describe behaviour Your scenarios should describe the intended behaviour of the system, not the implementation. In other words, it should describe what, not how.
+For example, for an authentication Scenario, you should write:
+When &amp;quot;Bob&amp;quot; logs in  instead of:
+ Given I visit &amp;quot;/login&amp;quot; When I enter &amp;quot;Bob&amp;quot; in the &amp;quot;user name&amp;quot; field And I enter &amp;quot;tester&amp;quot; in the &amp;quot;password&amp;quot; field And I press the &amp;quot;login&amp;quot; button Then I should see the &amp;quot;welcome&amp;quot; page  The first example, When &amp;ldquo;Bob&amp;rdquo; logs in, is a functional requirement.</description>
+    </item>
+    
+  </channel>
+</rss>

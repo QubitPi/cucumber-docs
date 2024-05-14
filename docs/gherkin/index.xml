@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Gherkin Syntax on Cucumber Documentation</title>
+    <link>https://cucumber.io/docs/gherkin/</link>
+    <description>Recent content in Gherkin Syntax on Cucumber Documentation</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    
+	<atom:link href="https://cucumber.io/docs/gherkin/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Gherkin Reference</title>
+      <link>https://cucumber.io/docs/gherkin/reference/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://cucumber.io/docs/gherkin/reference/</guid>
+      <description>Gherkin uses a set of special keywords to give structure and meaning to executable specifications. Each keyword is translated to many spoken languages; in this reference we&amp;rsquo;ll use English.
+Most lines in a Gherkin document start with one of the keywords.
+Comments are only permitted at the start of a new line, anywhere in the feature file. They begin with zero or more spaces, followed by a hash sign (#) and some text.</description>
+    </item>
+    
+    <item>
+      <title>Localisation</title>
+      <link>https://cucumber.io/docs/gherkin/languages/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://cucumber.io/docs/gherkin/languages/</guid>
+      <description>In order to allow Gherkin to be written in a number of languages, the keywords have been translated into multiple languages. To improve readability and flow, some languages may have more than one translation for any given keyword.
+Overview You can find all translation of Gherkin on GitHub. This is also the place to add or update translations.
+A list of the currently supported languages and their keywords can be found below.</description>
+    </item>
+    
+    <item>
+      <title>Step Organization</title>
+      <link>https://cucumber.io/docs/gherkin/step-organization/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://cucumber.io/docs/gherkin/step-organization/</guid>
+      <description>You can have all of your step definitions in one file, or in multiple files. When you start with your project, all your step definitions will probably be in one file. As your project grows, you should split your step definitions into meaningful groups in different files. This will make your project more logical and easier to maintain.
+How Cucumber finds your features and step definitions Be aware that, regardless of the directory structure employed, Cucumber effectively flattens the features/ directory tree when running tests.</description>
+    </item>
+    
+  </channel>
+</rss>

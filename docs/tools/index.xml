@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tools on Cucumber Documentation</title>
+    <link>https://cucumber.io/docs/tools/</link>
+    <description>Recent content in Tools on Cucumber Documentation</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    
+	<atom:link href="https://cucumber.io/docs/tools/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Tools</title>
+      <link>https://cucumber.io/docs/tools/general/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://cucumber.io/docs/tools/general/</guid>
+      <description>Using Cucumber in your project is more manageable with the right tools.
+Editors Most popular text editors support Gherkin syntax highlighting.
+Some IDEs also have advanced support for Cucumber, such as running Cucumber from within the IDE, displaying results, navigating between Gherkin steps and step definitions and so on.
+Atom Atom is a text editor for macOS, Windows or Linux.
+It offers several packages you can use with Cucumber.</description>
+    </item>
+    
+    <item>
+      <title>Java Tools</title>
+      <link>https://cucumber.io/docs/tools/java/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://cucumber.io/docs/tools/java/</guid>
+      <description>This page describes tools commonly used with Java.
+IDEs IntelliJ IDEA  IntelliJ IDEA has the IntelliJ IDEA Cucumber for Java plugin  You can find more information on using Cucumber with IntelliJ IDEA in the IntelliJ IDEA Cucumber help pages
+Eclipse  Eclipse has the Cucumber Eclipse plugin  Build tools The most widely used build tools for Java are Maven and Gradle.
+Maven To run Cucumber with Maven, make sure that:</description>
+    </item>
+    
+    <item>
+      <title>JavaScript Tools</title>
+      <link>https://cucumber.io/docs/tools/javascript/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://cucumber.io/docs/tools/javascript/</guid>
+      <description>This page describes tools commonly used with JavaScript.
+Build tools The most widely used build tools for JavaScript are npm and Yarn.
+npm To use Cucumber with npm, make sure that:
+ npm is installed  Cucumber.js is available as an npm module.
+Add cucumber as a development dependency:
+# NPM npm install --save-dev @cucumber/cucumber  Yarn To run Cucumber with Yarn, make sure that:
+ Yarn is installed  Add cucumber as a development dependency:</description>
+    </item>
+    
+    <item>
+      <title>Ruby Tools</title>
+      <link>https://cucumber.io/docs/tools/ruby/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://cucumber.io/docs/tools/ruby/</guid>
+      <description>This page describes tools for a Ruby or Ruby on Rails environment.
+IDEs RubyMine RubyMine is a Ruby and Rails IDE.
+Build tools Cucumber can be run in several ways. Be aware that rake cucumber, cucumber features, and autotest with ENV AUTOFEATURE=true do not necessarily produce the same results given the same features and step definitions.
+Rake Running rake cucumber from the command line provides the simplest method to run Cucumber tests.</description>
+    </item>
+    
+    <item>
+      <title>Related tools</title>
+      <link>https://cucumber.io/docs/tools/related-tools/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://cucumber.io/docs/tools/related-tools/</guid>
+      <description>People have written tools on top of Cucumber. These are the known third-party tools that work together with Cucumber:
+   Tool Description     Aruba Generic Step Definitions for command-line programs   AssertThat BDD &amp;amp; Test Management in Jira Combines feature/scenario management as well as built in test automation reporting in Jira. Website AssertThat   Backyard Name the models in your Cucumbers with ease   BDD Generator Generates random BDD scenarios in Gherkin format for testing purposes.</description>
+    </item>
+    
+  </channel>
+</rss>

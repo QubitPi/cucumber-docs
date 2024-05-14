@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Community on Cucumber Documentation</title>
+    <link>https://cucumber.io/docs/community/</link>
+    <description>Recent content in Community on Cucumber Documentation</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    
+	<atom:link href="https://cucumber.io/docs/community/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Cucumber Blog / Podcast</title>
+      <link>https://cucumber.io/docs/community/blog/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://cucumber.io/docs/community/blog/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>New Contributors</title>
+      <link>https://cucumber.io/docs/community/new-contributors/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://cucumber.io/docs/community/new-contributors/</guid>
+      <description>Every Wednesday at 10:45 PST we host the new contributors ensemble. This is a space for people who are keen to contribute to open source to get together and support each other in making their first contributions. 🦄
+The Cucumber team is committed to tackling the structural sexism and racism in open source, and we host these sessions to provide a welcoming environment for people who have historically been under-represented in open source.</description>
+    </item>
+    
+    <item>
+      <title>Community blog posts</title>
+      <link>https://cucumber.io/docs/community/blog-posts/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://cucumber.io/docs/community/blog-posts/</guid>
+      <description>Here is a list of Cucumber-related blog posts and tutorials.
+Do keep in mind that blogs can become dated quickly with a fast-moving project like Cucumber. Cucumber&amp;rsquo;s documentation should be considered the canonical documentation source with the, hopefully, most up-to-date information. Some very old blog posts may refer to the &amp;ldquo;RSpec Story Runner&amp;rdquo;, since Cucumber started out as a rewrite of that project.
+See also Related Tools.
+          Post Description Posting Date   What is BDD?</description>
+    </item>
+    
+    <item>
+      <title>Contributing</title>
+      <link>https://cucumber.io/docs/community/contributing/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://cucumber.io/docs/community/contributing/</guid>
+      <description>You want to contribute to Cucumber, great!
+You have a question You can get in touch or have a look on StackOverflow. Similar questions come up now and again. You might be able to find the answer yourself.
+You have found a bug There are several different flavours of Cucumber for different programming languages. Try to file your issue in the repo for the Cucumber flavour you&amp;rsquo;re using:
+ Cucumber JVM Cucumber JS Cucumber Ruby Godog  If you&amp;rsquo;re not sure, open an issue in the common repo, and we&amp;rsquo;ll take it from there.</description>
+    </item>
+    
+    <item>
+      <title>Contributing to Documentation</title>
+      <link>https://cucumber.io/docs/community/contributing-to-documentation/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://cucumber.io/docs/community/contributing-to-documentation/</guid>
+      <description>The Cucumber documentation is open source and anyone is welcome to contribute. In fact, we&amp;rsquo;d really appreciate your help!
+Each page provides a link to edit the content of that page. You can also make your changes to the docs.cucumber.io project on Github.
+Process First-time contributors will have to send a pull request.
+Once your first pull request has been accepted, you will be promoted to a committer and gain write access to the GitHub repository.</description>
+    </item>
+    
+    <item>
+      <title>FAQ</title>
+      <link>https://cucumber.io/docs/community/faq/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://cucumber.io/docs/community/faq/</guid>
+      <description>Getting started and help How do I get started with Cucumber? To get started from scratch, try the 10-minute tutorial. If you&amp;rsquo;d prefer to get started with a working project (or if you are having trouble getting the tutorial to work), you can get started with the cucumber-java-skeleton. This project is designed to work &amp;ldquo;out of the box&amp;rdquo;.
+ You can read these docs to learn more about Gherkin, Cucumber and BDD.</description>
+    </item>
+    
+    <item>
+      <title>FAQ about related tools</title>
+      <link>https://cucumber.io/docs/community/not-cucumber/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://cucumber.io/docs/community/not-cucumber/</guid>
+      <description>Cucumber is frequently used alongside other tools. As much as we would like to help you, if you are having trouble with any of these tools it&amp;rsquo;s better to contact those communities directly. This page lists some of the tools often used with Cucumber and where to find help for those tools. If you cannot find the tool you are looking for, try the related tools page.
+IDE Plugins Note that if you are using a newer version of Cucumber, the plugin you are using might not have been updated yet.</description>
+    </item>
+    
+    <item>
+      <title>Get in touch</title>
+      <link>https://cucumber.io/docs/community/get-in-touch/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://cucumber.io/docs/community/get-in-touch/</guid>
+      <description>Wherever you interact with the Cucumber Open community, always remember to respect and uphold our code of conduct.
+Github Discussions If you have questions about using Cucumber, or ideas for how we could improve it, head over to our GitHub Discussions forum.
+Slack If you&amp;rsquo;re interested in becoming an open-source contributor, come and hang out in our Slack community. To join the Slack you&amp;rsquo;ll need to create an account.</description>
+    </item>
+    
+    <item>
+      <title>Projects using Cucumber</title>
+      <link>https://cucumber.io/docs/community/projects-using-cucumber/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://cucumber.io/docs/community/projects-using-cucumber/</guid>
+      <description>Here is a list of projects using Cucumber:
+ BehatMage Broth bsmi CarrierWave Chef Chits Courgette CF FCQ Diaspora drush-make-ci Folioapp Jekyll Jeweler OERPScenario (linked to OpenERP) One Click Orgs PHP Sasl RadiantCMS Rails directory Redcar (see /plugins/*/features) rigse rps-challenge TimeFliesBy Vdebug WebJam WontoMedia  </description>
+    </item>
+    
+  </channel>
+</rss>

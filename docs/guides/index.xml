@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Guides on Cucumber Documentation</title>
+    <link>https://cucumber.io/docs/guides/</link>
+    <description>Recent content in Guides on Cucumber Documentation</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    
+	<atom:link href="https://cucumber.io/docs/guides/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Introduction</title>
+      <link>https://cucumber.io/docs/guides/overview/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://cucumber.io/docs/guides/overview/</guid>
+      <description>Cucumber is a tool that supports Behaviour-Driven Development(BDD). If you&amp;rsquo;re new to Behaviour-Driven Development read our BDD introduction first.
+What is Cucumber? Ok, now that you know that BDD is about discovery, collaboration and examples (and not testing), let&amp;rsquo;s take a look at Cucumber.
+Cucumber reads executable specifications written in plain text and validates that the software does what those specifications say. The specifications consists of multiple examples, or scenarios.</description>
+    </item>
+    
+    <item>
+      <title>10 Minute Tutorial</title>
+      <link>https://cucumber.io/docs/guides/10-minute-tutorial/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://cucumber.io/docs/guides/10-minute-tutorial/</guid>
+      <description>In this quick tutorial you will learn how to:
+ Install Cucumber Write your first Scenario using the Gherkin syntax Write your first step definition in JavaJavaScriptKotlinRuby Run Cucumber Learn the basic workflow of Behaviour-Driven Development (BDD)  We&amp;rsquo;ll use Cucumber to develop a small library that can figure out whether it&amp;rsquo;s Friday yet.
+Please be aware that this tutorial assumes that you have a:
+  Basic understanding of the Java programming language    Basic understanding of the Kotlin programming language    Basic understanding of the Javascript programming language    Basic understanding of the Ruby programming language Basic understanding of the Bundler tool and Gemfile    Some experience using a terminal Some experience using a text editor  Before we begin, you will need the following:</description>
+    </item>
+    
+    <item>
+      <title>Browser Automation</title>
+      <link>https://cucumber.io/docs/guides/browser-automation/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://cucumber.io/docs/guides/browser-automation/</guid>
+      <description>Cucumber is not a browser automation tool, but it works well with the following browser automation tools.
+Selenium WebDriver WebDriver is designed to provide a simpler, more concise programming interface than some other tools. Selenium WebDriver better supports dynamic web pages where elements of a page may change without the page itself being reloaded. WebDriver&amp;rsquo;s goal is to supply a well-designed object-oriented API that provides improved support for modern advanced web-app testing problems.</description>
+    </item>
+    
+    <item>
+      <title>API Automation</title>
+      <link>https://cucumber.io/docs/guides/api-automation/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://cucumber.io/docs/guides/api-automation/</guid>
+      <description>Cucumber is not an API automation tool, but it works well with other API automation tools.
+Using API&amp;rsquo;s for your automation, can make your tests faster and less flaky than going through the UI. In general, API&amp;rsquo;s change less frequently than the UI; keeping your automation up to date for longer.
+API Automation Tools for JVM RestAssured RestAssured is an API automation tool for Java.
+You can use RestAssured in your step definitions to make API calls and verify responses.</description>
+    </item>
+    
+    <item>
+      <title>Testable Architecture</title>
+      <link>https://cucumber.io/docs/guides/testable-architecture/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://cucumber.io/docs/guides/testable-architecture/</guid>
+      <description>Automated tests and executable specifications can only work with software that has a testable architecture. A testable architecture enables fast and reliable tests that are easy to write, execute and maintain.
+Fast feedback Fast tests enable the developers to run them frequently to obtain fast feedback on what they are building, without losing focus or flow.
+Testability When designing for testability, make sure that your products and services are composed of loosely-coupled, well-encapsulated components or modules.</description>
+    </item>
+    
+    <item>
+      <title>Continuous Build</title>
+      <link>https://cucumber.io/docs/guides/continuous-integration/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://cucumber.io/docs/guides/continuous-integration/</guid>
+      <description>Using Cucumber in a Continuous Integration (CI) environment is relatively straightforward.
+The cucumber executable will exit with an exit status different from 0 if one or more scenarios are failing. This is all your CI server needs to know.
+First, you have to make sure your CI server executes Cucumber. Most CI setups invoke some kind of build tool. Common build tools are:
+ Rake Ant Maven  We recommend executing Cucumber from one of these on a CI server.</description>
+    </item>
+    
+    <item>
+      <title>Anti-patterns</title>
+      <link>https://cucumber.io/docs/guides/anti-patterns/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://cucumber.io/docs/guides/anti-patterns/</guid>
+      <description>There are several anti-patterns, which we will describe here. We will also give you hints on how to avoid them!
+Feature-coupled step definitions Feature-coupled step definitions are step definitions that can&amp;rsquo;t be reused across features or scenarios.
+This may lead to an explosion of step definitions, code duplication, and high maintenance costs.
+Example
+An imaginary résumé application could have the following Feature and Step Definition files:
+features/ +--edit_work_experience.feature +--edit_languages.feature +--edit_education.</description>
+    </item>
+    
+    <item>
+      <title>Upgrading</title>
+      <link>https://cucumber.io/docs/guides/upgrading/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://cucumber.io/docs/guides/upgrading/</guid>
+      <description>We try to add new features to Cucumber periodically. This means you may want to upgrade to a newer version to take advantage of these new features, as well as any bug fixes.
+Versioning Cucumber tries to follow the SemVer specification for release numbers. Essentially, this means that:
+ If only the right-hand (patch) number in the release changes, you don&amp;rsquo;t need to worry. If the middle number (minor) number in the release changes, you don&amp;rsquo;t need to worry.</description>
+    </item>
+    
+    <item>
+      <title>Parallel Execution</title>
+      <link>https://cucumber.io/docs/guides/parallel-execution/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://cucumber.io/docs/guides/parallel-execution/</guid>
+      <description>Cucumber-JVM allows parallel execution across multiple threads since version 4.0.0.
+There are several options to incorporate this built-in feature in a Cucumber project. You can do so using:
+ JUnit 5 JUnit 4 TestNG CLI  For each of these options, this tutorial will look at the project setup, configuration settings and execution commands.
+ Cucumber-JVM allows parallel execution across multiple threads since version 4.0.0.
+There are several options to incorporate this built-in feature in a Cucumber project.</description>
+    </item>
+    
+  </channel>
+</rss>
