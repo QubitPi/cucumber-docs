@@ -1,0 +1,32 @@
+# Copyright Jiaqi Liu
+---
+name: CI/CD
+
+"on":
+  pull_request:
+  push:
+    branches:
+      - master
+
+env:
+  USER: QubitPi
+  EMAIL: jack20220723@gmail.com
+
+jobs:
+  documentation:
+    name: Test & Release Documentation
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - uses: docker-practice/actions-setup-docker@master
+      - run: ./docker_shell.sh make
+      - run: sudo chmod 775 public && sudo cp CNAME ./public
+      - name: Deploy documentation (including Javadoc) to GitHub Pages
+        # if: github.ref == 'refs/heads/master'
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: public
+          enable_jekyll: false
+          user_name: ${{ env.USER }}
+          user_email: ${{ env.EMAIL }}
